@@ -1,4 +1,9 @@
 package main.java.br.com.pokemonbattle.model;
 
-public class Onix {
+import main.java.br.com.pokemonbattle.enums.TipoPokemon;
+
+public class Onix extends Pokemon{
+    public Onix(String nome, TipoPokemon tipo, int vida, int ataque, int defesa) {
+        super(nome, tipo, vida, ataque, defesa);
+    }
 }
