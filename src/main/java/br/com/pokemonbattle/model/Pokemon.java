@@ -36,4 +36,10 @@ public abstract class Pokemon {
     public int getDefesa() {
         return defesa;
     }
+
+    @Override
+    public String toString() {
+        return nome
+                + " " + "(" + tipo + ")" + " - " + "HP: " + vida + ", Ataque: " + ataque + ", Defesa: " + defesa;
+    }
 }
