@@ -1,20 +1,20 @@
 package main.java.br.com.pokemonbattle.enums;
 
 public enum TipoPokemon {
-    FOGO("🔥"),
-    AGUA("💧"),
-    GRAMA("🌿"),
-    ELETRICO("⚡"),
-    PEDRA("🪨"),
-    PSIQUICO("🔮");
+    FOGO("Fogo 🔥"),
+    AGUA("Água 💧"),
+    GRAMA("Grama 🌿"),
+    ELETRICO("Elétrico ⚡"),
+    PEDRA("Pedra 🪨"),
+    PSIQUICO("Psíquico 🔮");
 
-    private final String figurinha;
+    private final String descricao;
 
-    TipoPokemon(String figurinha) {
-        this.figurinha = figurinha;
+    TipoPokemon(String descricao) {
+        this.descricao = descricao;
     }
 
-    public String getFigurinha() {
-        return figurinha;
+    public String getDescricao() {
+        return descricao;
     }
 }
